@@ -1,0 +1,29 @@
+﻿<Window x:Class="SyncProgrammingProblemsImageFlipper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SyncProgrammingProblemsImageFlipper"
+        mc:Ignorable="d"
+        Title="Image Flipper" Height="350" Width="525">
+    <Window.DataContext>
+        <local:ImageFlipperViewModel></local:ImageFlipperViewModel>
+    </Window.DataContext>
+    <Grid>
+        <StackPanel>
+            <Button HorizontalAlignment="Left" Command="{Binding BrowseToFlip}">Browse Items To Flip</Button>
+            <ListView  ItemsSource="{Binding Images}">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal"></WrapPanel>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Image Width="100" Height="100"  Source="{Binding}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </Grid>
+</Window>
