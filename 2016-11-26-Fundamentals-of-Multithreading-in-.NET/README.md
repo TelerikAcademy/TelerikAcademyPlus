@@ -122,6 +122,7 @@ In order to understand what Asynchronous programming is, we must have a clear de
 - **Example:** A woman sits in a cafeteria and orders a coffee. While waiting for her coffee to be served, she is reading the morning newspaper.
 
 <!-- <img showInPresentation="true" class="slide-image" src="images/Async.png" style="top:34%; left:4%; width:65%; z-index:-1; border-radius: 5px; border: 1px solid white;" /> -->
+
 </br>
 </br>
 </br>
