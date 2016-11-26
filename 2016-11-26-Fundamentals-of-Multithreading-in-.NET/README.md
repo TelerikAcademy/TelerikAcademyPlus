@@ -313,7 +313,7 @@ while **parallelism** is the **simultaneous execution** of (possibly related) co
   - Libraries of code are mapped into the address space.
 	 - 1 EXE + N DLLs (dynamically loaded libraries)
 
-<!-- <img showInPresentation="true" class="slide-image" src="images/ProcessAnatomy1.png" style="top:57%; left:8%; width:80%; z-index:-1; border-radius: 5px; border: 1px solid white;" /> -->
+<!-- <img showInPresentation="true" class="slide-image" src="images/ProcessAnatomy1.PNG" style="top:57%; left:8%; width:80%; z-index:-1; border-radius: 5px; border: 1px solid white;" /> -->
 
 
 
